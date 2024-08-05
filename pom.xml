@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.gitlqr</groupId>
-  <artifactId>closed_source_arr</artifactId>
+  <groupId>com.poly</groupId>
+  <artifactId>ntk_al</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
   <build>
@@ -24,6 +24,12 @@
     </plugins>
   </build>
   <dependencies>
+    <dependency>
+      <groupId>com.poly</groupId>
+      <artifactId>ntk_ifs</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>androidx.appcompat</groupId>
       <artifactId>appcompat</artifactId>
